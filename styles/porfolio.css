@@ -82,10 +82,17 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+}
+
+.section-description {
+    text-align: center;
+}
+
 
 /* About Section  */
 .about-me {
-    margin-top: 130px;
     background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -93,9 +100,11 @@ main {
 }
 
 .section-title {
+    text-align: center;
     margin-bottom: 30px;
     font-weight: 700px;
     font-size: 35px;
+    margin-bottom: 50px;
 
 }
 
@@ -110,13 +119,36 @@ main {
     justify-content: space-around;
 }
 
-.about-info-title {
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
 
-.about-info-description {
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #757575;
 }
+
+/* What I DO */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {}
